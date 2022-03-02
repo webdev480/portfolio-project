@@ -1,0 +1,86 @@
+body{
+    /* background-color: #E1DD8F; */
+    background-color: #fff5f6;
+    margin-bottom: 100px;
+    padding: 0%;
+    overflow-x: hidden;
+}
+
+.card {
+    background: none;
+    border: none;
+    padding: 50px;
+}
+
+
+.coder {
+    max-width: 25%;
+    position: absolute;
+    left: 1em;
+    top: 5rem;
+    z-index: 2;
+}
+
+.button, .submit-btn {
+    background-color: #b87b88;
+    color: white;
+}
+
+
+
+/* .card {
+    border: none;
+    margin-top: 5rem;
+} */
+
+/* .webPhoto {
+    display: flex;
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+} */
+
+/* footer {
+    justify-content: space-evenly;
+    text-align: center;
+    padding: 3px;
+    background-color: #4c86a8;
+    color: white;
+    position: fixed;
+  } */
+
+  footer a, i {
+      color: white;
+      margin-right: 1.5rem;
+      padding-top: 10px;
+  }
+
+
+  footer {
+    /* border-top: solid 1px; */
+    background: #4c86a8;
+    width: 100%;
+    height: 75px;
+    padding-top: 10px;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+  }
+
+  @media (max-width: 768px) {
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
+
+  .cards {
+      padding-top: 100px;
+      margin-bottom: 100px;
+  }
+
+  .form-group {
+      margin-left: 1.5rem;
+      padding-bottom: 10px;
+  }

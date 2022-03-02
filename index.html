@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2c53d1fba7.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <script src="/js/app.js"></script>
+    <title>Steve's Portfolio</title>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-warning sticky-top">
+        <div class="container-fluid">
+          <a class="navbar-brand text-white" href="#">Steve Smith's Portfolio</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Home</a>
+                  </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#projects">Portfolio</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-white" href="#contact">Contact Me</a>
+              </li>
+          </div>
+        </div>
+      </nav>
+
+    <section>
+        <div class="container-fluid px-0">
+            <img class="wavyPhoto" src="img/wave 1.svg" alt="picture of a wavy shape">
+            <img class="coder" src="img/codePhoto.svg" alt="">
+        </div>
+    </section>
+
+    <div class="container">
+        <div class="row d-flex align-items-center">
+          <div class="col">
+            <h1 class="text-center">Welcome to my portfolio!</h1>
+            <p class="text-center">I am an aspiring front-end developer.  Please feel free to take a look at my projects.  If you have any questions, you are welcome to contact me.</p>
+          </div>
+          <div class="col">
+            <img class="webPhoto" src="/img/web-dev-photo-yellow.svg" alt="picture of human at desk">
+          </div>
+        </div>
+      </div>
+      
+      <section class="container-fluid cards" id="projects">
+        <div class="container">
+            <div class="row card-deck">
+                <div class="card col-lg-4 mt-4 mb-4">
+                  <img class="card-img-top" src="img/card-photo-1.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">This is a placeholder for future projects to be added.</p>
+                  </div>
+                  <!-- <button type="button" class="btn btn-secondary btn-lg">Salads & Soups</button> -->
+                  <button onclick="project()" type="button" class="button btn-lg" target="blank">Project One</button>
+                </div>
+                <div class="card col-lg-4 mt-4 mb-4">
+                  <img class="card-img-top" src="img/card-photo-2.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">This is a placeholder for future projects to be added.</p>
+                  </div>
+                  <button onclick="project()" type="button" class="button btn-lg">Project Two</button>
+                </div>
+                <div class="card col-lg-4 mt-4 mb-4">
+                  <img class="card-img-top" src="img/card-photo-3.jpg" alt="Card image cap">
+                  <div class="card-body">
+                    <p class="card-text">This is a placeholder for future projects to be added.</p>
+                  </div>
+                  <button onclick="project()" type="button" class="button btn-lg">Project Three</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="container">
+        <div class="row row-content">
+            <div class="col-12">
+                <h2 class="contact" id="contact">Contact Me</h2>
+                <hr />
+            </div>
+            <div class="col-md-10">
+                <form>
+                    <div class="form-group row">
+                        <label for="firstName" class="col-md-2 col-form-label">First Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Enter Your First Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
+                        <div class="col-md-10">
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Enter Your Last Name" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
+                        <div class="col-5 col-md-3">
+                            <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
+                        </div>
+                        <div class="col-7">
+                            <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="email" class="col-md-2 col-form-label">Email</label>
+                        <div class="col-md-10">
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your Email" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <div class="offset-md-2 col-md-10">
+                            <button type="submit" class="submit-btn btn">Send Feedback</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+       </div>
+    </section>
+
+    <footer>
+        <a href="mailto:webdev480@outlook.com" target="#"><i class="fa-solid fa-envelope fa-2x"></i></a>
+        <a href="https://github.com/webdev480" target="#"><i class="fa-brands fa-github fa-2x"></i></a>
+        <a href="https://twitter.com/webdev916" target="#"><i class="fa-brands fa-twitter fa-2x"></i></a>
+        <a href="https://www.linkedin.com/in/webdev480/" target="#"><i class="fa-brands fa-linkedin fa-2x"></i></a>
+    </footer>
+     
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+</body>
+</html>
