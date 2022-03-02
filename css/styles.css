@@ -58,3 +58,8 @@ footer {
     height: 15vw;
     object-fit: cover;
 }
+
+.contact {
+    color: #24285b;
+    padding-bottom: 20px;
+}
