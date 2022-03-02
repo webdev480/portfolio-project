@@ -60,12 +60,11 @@
         <div class="container">
             <div class="row card-deck">
                 <div class="card col-lg-4 mt-4 mb-4">
-                  <img class="card-img-top" src="img/card-photo-1.jpg" alt="Card image cap">
+                  <img class="card-img-top" src="img/react-lake.jpg" alt="Card image cap">
                   <div class="card-body">
-                    <p class="card-text">This is a placeholder for future projects to be added.</p>
+                    <p class="card-text">This is a website I created in my coding bootcamp called Nucampsite.  It was made using Bootstrap.</p>
                   </div>
-                  <!-- <button type="button" class="btn btn-secondary btn-lg">Salads & Soups</button> -->
-                  <button onclick="project()" type="button" class="button btn-lg" target="blank">Project One</button>
+                  <button onclick="projectNucampsite()" type="button" class="button btn-lg" target="blank">Project One</button>
                 </div>
                 <div class="card col-lg-4 mt-4 mb-4">
                   <img class="card-img-top" src="img/card-photo-2.jpg" alt="Card image cap">
@@ -92,37 +91,41 @@
                 <hr />
             </div>
             <div class="col-md-10">
-                <form>
+                <form action="https://formspree.io/f/xbjwyoad"
+                method="POST">
                     <div class="form-group row">
                         <label for="firstName" class="col-md-2 col-form-label">First Name</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="Enter Your First Name" />
+                            <input type="text" class="form-control" id="firstName" name="firstName" placeholder="First Name" />
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="lastName" class="col-md-2 col-form-label">Last Name</label>
                         <div class="col-md-10">
-                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Enter Your Last Name" />
+                            <input type="text" class="form-control" id="lastName" name="lastName" placeholder="Last Name" />
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="areaCode" class="col-md-2 col-form-label">Contact Tel.</label>
-                        <div class="col-5 col-md-3">
-                            <input type="tel" class="form-control" id="areaCode" name="areaCode" placeholder="Area code" />
-                        </div>
+                        <label for="areaCode" class="col-md-2 col-form-label">Phone</label>
                         <div class="col-7">
-                            <input type="tel" class="form-control" name="telNum" placeholder="Tel. number" />
+                            <input type="tel" class="form-control" name="telNum" placeholder="Phone Number" />
                         </div>
                     </div>
                     <div class="form-group row">
                         <label for="email" class="col-md-2 col-form-label">Email</label>
                         <div class="col-md-10">
-                            <input type="email" class="form-control" id="email" name="email" placeholder="Enter Your Email" />
+                            <input type="email" class="form-control" id="email" name="email" placeholder="Email" />
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label for="feedback" class="col-md-2 col-form-label">Your Message</label>
+                        <div class="col-md-10">
+                            <textarea class="form-control" id="message" name="message" rows="8" placeholder="Enter Your Message Here"></textarea>
                         </div>
                     </div>
                     <div class="form-group row">
                         <div class="offset-md-2 col-md-10">
-                            <button type="submit" class="submit-btn btn">Send Feedback</button>
+                            <button" type="submit" class="submit-btn btn">Submit</button>
                         </div>
                     </div>
                 </form>
