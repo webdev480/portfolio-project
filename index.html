@@ -10,6 +10,9 @@
     <script src="https://kit.fontawesome.com/2c53d1fba7.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="shortcut icon" href="/img/favicon.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Lexend:wght@300&display=swap" rel="stylesheet">
     <script src="/js/app.js"></script>
     <title>Steve's Portfolio</title>
 </head>
@@ -47,7 +50,7 @@
     <div class="container">
         <div class="row d-flex align-items-center">
           <div class="col">
-            <h1 class="text-center">Welcome to my portfolio!</h1>
+            <h1 class="text-center welcome">Welcome to my portfolio!</h1>
             <p class="text-center">I am an aspiring front-end developer.  Please feel free to take a look at my projects.  If you have any questions, you are welcome to contact me.</p>
           </div>
           <div class="col">
@@ -88,7 +91,6 @@
         <div class="row row-content">
             <div class="col-12">
                 <h2 class="contact" id="contact">Contact Me</h2>
-
             </div>
             <div class="col-md-10">
                 <form action="https://formspree.io/f/xbjwyoad"
@@ -106,9 +108,9 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="areaCode" class="col-md-2 col-form-label">Phone</label>
+                        <label for="tel" class="col-md-2 col-form-label">Phone</label>
                         <div class="col-7">
-                            <input type="tel" class="form-control" name="telNum" placeholder="Phone Number" />
+                            <input type="tel" class="form-control" id="tel" name="tel" placeholder="Phone Number" />
                         </div>
                     </div>
                     <div class="form-group row">
@@ -118,7 +120,7 @@
                         </div>
                     </div>
                     <div class="form-group row">
-                        <label for="feedback" class="col-md-2 col-form-label">Your Message</label>
+                        <label for="message" class="col-md-2 col-form-label">Your Message</label>
                         <div class="col-md-10">
                             <textarea class="form-control" id="message" name="message" rows="8" placeholder="Enter Your Message Here"></textarea>
                         </div>

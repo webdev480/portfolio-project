@@ -1,5 +1,7 @@
 body {
     background-color: #fff5f6;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-family: 'Lexend', sans-serif;
     margin-bottom: 100px;
     padding: 0%;
     overflow-x: hidden;
@@ -62,4 +64,8 @@ footer {
 .contact {
     color: #24285b;
     padding-bottom: 20px;
+}
+
+.welcome {
+    font-size: 3rem;
 }
